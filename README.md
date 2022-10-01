@@ -16,5 +16,7 @@ Run `make`, make sure you have GNU sed.
 Start a webserver in the angel directory, e.g.
 
     python -m SimpleHTTPServer 8000
+or
+    python3 -m http.server 8000
     
 Visit localhost:8000/run.html in your browser.
